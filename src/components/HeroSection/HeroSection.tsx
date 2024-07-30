@@ -1,11 +1,11 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Herohack from "./Herohack";
 
 export default function HeroSection() {
-    const { scrollY } = useViewportScroll();
+    const { scrollY } = useScroll();
     const [viewportHeight, setViewportHeight] = useState(0);
 
     useEffect(() => {
