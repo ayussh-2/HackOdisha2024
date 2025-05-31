@@ -36,12 +36,12 @@ const Navbar: React.FC = () => {
             path: "mailto: support@hackodisha.com",
             cName: "nav-text",
         },
-        {
-            id: 4,
-            title: "Events",
-            path: "#events",
-            cName: "nav-text",
-        },
+        // {
+        //     id: 4,
+        //     title: "Events",
+        //     path: "#events",
+        //     cName: "nav-text",
+        // },
         // {
         //     id: 5,
         //     title: "ID Card",
@@ -73,7 +73,7 @@ const Navbar: React.FC = () => {
                     />
                 </Link>
             </div>
-            <div className="mx-auto md:flex hidden justify-center min-h-fit font-bold">
+            <div className="flex-1 md:flex hidden justify-center items-center w-full min-h-fit font-bold">
                 {NavData.map((item) => {
                     return (
                         <div

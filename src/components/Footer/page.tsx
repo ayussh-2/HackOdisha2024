@@ -28,7 +28,7 @@ const Footer = () => {
                             className=" sm:w-[171px]"
                         />
                         <p className="text-[#454545] text-[15px] sm:text-[20px] md:text-[25px] 2xl:text-[32px] font-[600] font-oxanium">
-                            Hackodisha <br /> Webwiz, NIT Rourkela
+                            Hackodisha 5.0 <br /> Webwiz, NIT Rourkela
                         </p>
                         {/* <button
                             type="button"
@@ -154,7 +154,7 @@ const Footer = () => {
                     className="font-oxanium font-semibold text-[10px] sm:text-[15px] md:text-[20px] 2xl:text-[25px]
        text-[#F3EBD6] flex justify-center items-center mt-[1rem]"
                 >
-                    Hackodisha 2025. Powered by Webwiz, NIT Rourkela.
+                    Hackodisha 5.0 Powered by Webwiz, NIT Rourkela.
                 </p>
             </div>
         </>
