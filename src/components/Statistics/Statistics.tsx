@@ -37,7 +37,7 @@ const Statistics = () => {
         2px 3px 0 #131313`,
                         }}
                     >
-                        STATISTICS
+                        PAST STATISTICS
                     </div>
                     <div className=" ml-2">
                         <Image src={left} alt="left arrow" />
